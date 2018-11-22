@@ -21,7 +21,7 @@ import android.widget.Toast;
 import com.facebook.login.LoginManager;
 import com.facebook.share.widget.ShareDialog;
 
-public class bogdan extends AppCompatActivity
+public class Alicia extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     private ShareDialog shareDialog;
@@ -55,7 +55,7 @@ public class bogdan extends AppCompatActivity
             @Override
             public void onClick(View v) {
                 LoginManager.getInstance().logOut();
-                Intent login  = new Intent(bogdan.this, MainActivity.class);
+                Intent login  = new Intent(Alicia.this, MainActivity.class);
                 startActivity(login);
                 finish();
             }
@@ -119,7 +119,7 @@ public class bogdan extends AppCompatActivity
             fragmentManager.beginTransaction().replace(R.id.contenedor, pf).commit();
         } else if (id == R.id.nav_salir) {
             LoginManager.getInstance().logOut();
-            Intent login  = new Intent(bogdan.this, MainActivity.class);
+            Intent login  = new Intent(Alicia.this, MainActivity.class);
             startActivity(login);
             finish();
         }

@@ -78,7 +78,7 @@ public class MainActivity extends Activity {
 
     private void irMenuPrincipal(Profile profile){
         if(profile!= null){
-            Intent cambioPantalla = new Intent(this,bogdan.class);
+            Intent cambioPantalla = new Intent(this,Alicia.class);
             cambioPantalla.putExtra("name",profile.getFirstName());
             cambioPantalla.putExtra("surname",profile.getLastName());
             cambioPantalla.putExtra("imageUrl",profile.getProfilePictureUri(200,200).toString());

@@ -46,7 +46,7 @@
             android:exported="true" />
 
         <activity
-            android:name=".bogdan"
+            android:name=".Alicia"
             android:label="@string/title_activity_bogdan"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
