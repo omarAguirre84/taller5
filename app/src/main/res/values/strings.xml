@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">RMB</string>
+    <string name="facebook_app_id">1147907902033032</string>
+    <string name="fb_login_protocol_scheme">fb1147907902033032</string>
+    <string name="title_activity_bogdan">Rock Music Band</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">¡Encontra Tu Mejor Lugar!</string>
+    <string name="nav_header_subtitle">con Rock Music Band</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="txt_codigo">Codigo de la Banda</string>
+    <string name="txt_nombre">Nombre de la Banda</string>
+    <string name="txt_genero">Genero de la Banda</string>
+    <string name="txt_descripcion">Descripcion de la Banda</string>
+    <string name="BotonRegistrar">Registrar Banda</string>
+    <string name="BotonBuscar">Buscar Banda</string>
+    <string name="BotonEliminar">Eliminar Banda</string>
+    <string name="BotonModificar">Modificar Banda</string>
+    <string name="txt_nombreBar">Nombre del Bar</string>
+    <string name="txt_direccion">Direccion del Bar</string>
+    <string name="txt_horario">Horarios del Bar</string>
+    <string name="BotonRegistrarBar">Registrar Bar</string>
+    <string name="BotonModificarBar">Modificar Bar</string>
+    <string name="BotonBuscarBar">BuscarBar Bar</string>
+    <string name="BotonEliminarBar">Eliminar Bar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

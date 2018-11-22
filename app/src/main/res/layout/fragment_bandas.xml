@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListadoFragment">
+
+    <!-- TODO: Update blank fragment layout
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="BANDAS"
+        android:textSize="42sp"
+        android:textStyle="bold" /> -->
+
+    <EditText
+        android:id="@+id/txt_codigo"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_alignStart="@id/txt_codigo"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/txt_codigo"
+        tools:ignore="LabelFor"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/txt_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@id/txt_nombre"
+        android:layout_marginTop="86dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/txt_nombre"
+        tools:ignore="LabelFor"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="83dp" />
+
+    <EditText
+        android:id="@+id/txt_genero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@id/txt_genero"
+        android:layout_marginTop="143dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/txt_genero"
+        tools:ignore="LabelFor"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="144dp" />
+
+    <EditText
+        android:id="@+id/txt_descripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@id/txt_descripcion"
+        android:layout_marginTop="201dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/txt_descripcion"
+        tools:ignore="LabelFor"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="187dp"
+        android:layout_height="47dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/button2"
+        android:layout_marginBottom="200dp"
+        android:onClick="Registrar"
+        android:text="@string/BotonRegistrar"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="276dp"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="187dp"
+        android:layout_height="47dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/button3"
+        android:layout_marginBottom="143dp"
+        android:onClick="Buscar"
+        android:text="@string/BotonBuscar"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="337dp" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="187dp"
+        android:layout_height="47dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/button4"
+        android:layout_marginBottom="83dp"
+        android:onClick="Eliminar"
+        android:text="@string/BotonEliminar"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="397dp" />
+
+<Button
+    android:id="@+id/button4"
+    style="@style/Widget.AppCompat.Button.Colored"
+    android:layout_width="187dp"
+    android:layout_height="47dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginBottom="22dp"
+    android:layout_marginStart="20dp"
+    android:onClick="Modificar"
+    android:text="@string/BotonModificar"
+    tools:layout_editor_absoluteX="16dp"
+    tools:layout_editor_absoluteY="458dp" />
+
+</RelativeLayout>
